@@ -13,7 +13,7 @@ class CoreDataManager {
 
     private init() {}
 
-    //MARK: - Public
+    //MARK: - CRUD
 
     public func saveTask(withTitle title: String) {
         let context = getContext()
